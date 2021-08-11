@@ -11,13 +11,18 @@ def coordinatesToDecimal(degreeslat, degreeslong, minuteslat, minuteslong):
     print(long)
 
 
-print('Inserire i gradi della Latitudine: ')
-latitudeDegrees = input()
-print('Inserire i minuti della Latitudine: ')
-latitudeMinutes = input()
-print('Inserire i gradi della Longitudine: ')
-longitudeDegrees = input()
-print('Inserire i minuti della Longitudine: ')
-longitudeMinutes = input()
+def main():
+    print('Insert latitude degrees: ')
+    latitude_degrees = input()
+    print('Insert latitude minutes: ')
+    latitude_minutes = input()
+    print('Insert longitude degrees: ')
+    longitude_degrees = input()
+    print('Insert longitude minutes: ')
+    longitude_minutes = input()
 
-coordinatesToDecimal(latitudeDegrees, longitudeDegrees, latitudeMinutes, longitudeMinutes)
+    coordinatesToDecimal(latitude_degrees, longitude_degrees, latitude_minutes, longitude_minutes)
+
+
+if __name__ == "__main__":
+    main()
