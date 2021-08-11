@@ -1,5 +1,7 @@
 # coordinates-converter
 
+[![MIT License](https://img.shields.io/github/license/drew458/coordinates-converter)](https://opensource.org/licenses/MIT)
+
 The script converts coordinate degrees to decimal.
 
 ## Usage
